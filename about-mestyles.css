@@ -83,6 +83,16 @@ header {
   z-index: -1;
 }
 
+@keyframes box1 {
+  from {
+    top: 1000px;
+  }
+
+  to {
+    top: 15px;
+  }
+}
+
 .info-box-1 {
   display: block;
   position: absolute;
@@ -94,6 +104,18 @@ header {
   background-image: linear-gradient(to bottom right, rgba(255,249,251, .7), rgba(162,162,162,0));
   border-radius: 40px;
   z-index: -1;
+  animation-name: box1;
+    animation-duration: 3s;
+}
+
+@keyframes box2 {
+  from {
+    top: 1000px;
+  }
+
+  to {
+    top: 140px;
+  }
 }
 
 .info-box-2 {
@@ -107,8 +129,20 @@ header {
   background-image: linear-gradient(to bottom right, rgba(255,249,251, .7), rgba(162,162,162,0));
   border-radius: 40px;
   z-index: -1;
+  animation-name: box2;
+    animation-duration: 2s;
 }
 
+
+@keyframes box3 {
+  from {
+    top: 1000px;
+  }
+
+  to {
+    top: 240px;
+  }
+}
 .info-box-3 {
   display: block;
   position: absolute;
@@ -120,8 +154,19 @@ header {
   background-image: linear-gradient(to bottom right, rgba(255,249,251, .7), rgba(162,162,162,0));
   border-radius: 40px;
   z-index: -1;
+  animation-name: box3;
+    animation-duration: 4s;
 }
 
+@keyframes box4 {
+  from {
+    top: 1000px;
+  }
+
+  to {
+    top: 480px;
+  }
+}
 .info-box-4 {
   display: block;
   position: absolute;
@@ -133,6 +178,18 @@ header {
   background-image: linear-gradient(to bottom right, rgba(255,249,251, .7), rgba(162,162,162,0));
   border-radius: 40px;
   z-index: -1;
+  animation-name: box4;
+    animation-duration: 4s;
+}
+
+@keyframes box5 {
+  from {
+    top: 1000px;
+  }
+
+  to {
+    top: 780px;
+  }
 }
 
 .info-box-5 {
@@ -146,6 +203,18 @@ header {
   background-image: linear-gradient(to bottom right, rgba(255,249,251, .7), rgba(162,162,162,0));
   border-radius: 40px;
   z-index: -1;
+  animation-name: box5;
+    animation-duration: 4s;
+}
+
+@keyframes box6 {
+  from {
+    top: 1000px;
+  }
+
+  to {
+    top: 730px;
+  }
 }
 
 .info-box-6 {
@@ -159,6 +228,8 @@ header {
   background-image: linear-gradient(to bottom right, rgba(255,249,251, .7), rgba(162,162,162,0));
   border-radius: 40px;
   z-index: -1;
+  animation-name: box6;
+    animation-duration: 4s;
 }
 
 .text1 {
