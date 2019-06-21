@@ -2,6 +2,7 @@ body {
   background-image: url("images/art-studio.jpeg");
   background-position: top;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 nav {
@@ -14,9 +15,7 @@ nav {
   width: 1000px;
   height: 45px;
   margin: 0 auto;
-  background-color: rgb(162, 162, 162);
   z-index: 3;
-  border: 5px solid #305252;
   border-top: 0;
   border-radius: 0 0 50px 50px;
   z-index: 10;
@@ -60,7 +59,7 @@ header {
   width: 1000px;
   height: 180px;
   margin: 0 auto;
-  background-color: rgba(119, 135, 139, .5);
+  background-color: rgba(119, 135, 139, 0);
   z-index: -1;
   border-radius: 0 0 110px 110px;
 }
